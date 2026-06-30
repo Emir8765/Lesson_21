@@ -1,0 +1,50 @@
+# ---- Данные приложения ----
+# Локальные задачи пользователя не должны попадать в репозиторий
+../tasks.json
+test_tasks.json
+
+# ---- Byte-compiled / optimized files ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Distribution / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Environment variables ----
+.env
+.env.*
+
+# ---- Testing / coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---- Type checkers / linters ----
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
